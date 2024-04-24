@@ -12,11 +12,11 @@
   --font-family-title: 'Optima LT Medium','Arial','方正苏新诗柳楷简体','黑体'; 
   --font-family-footer: 'Charm','Calibri','叶根友毛笔行书修正版','方正苏新诗柳楷简体','楷体';
   --font-family-code: 'Fira Code','HYMingChanKeBen W','Consolas','霞鹜文楷等宽','华文中宋','宋体';
-  --font-size-1: 50px;
-  --foot-size-subtitle: 32px;
-  --font-size-2-3: 33px; 
-  --font-size-4-5: 25px; 
-  --font-size-main: 20px;
+  --font-size-1: 55px;
+  --foot-size-subtitle: 42px;
+  --font-size-2-3: 38px; 
+  --font-size-4-5: 30px; 
+  --font-size-main: 25px;
   --font-size-footer: 22px;
   --font-size-page: 12px;
   --font-size-code: 22px;
@@ -108,7 +108,7 @@ blockquote>p::before {
 }
 
 a {
-  font-size: 1.0rem;
+  font-size: 0.9rem;
   padding:0 .2rem;
   color: var(--color-main);
   font-family: var(--font-family-main);
@@ -253,7 +253,7 @@ section.cover_a {
 section.cover_a h1 {
   background-color: var(--color-coverbg);
   vertical-align:middle;   
-  padding: 0px 40px;
+  padding: 0px 80px;
   top: 28%;
   width: 88%;
   transform: translateX(-6%);
@@ -399,7 +399,7 @@ section.cover_b p {
   text-align: center; 
   bottom: 13%;
   width: 100%;
-  transform: translateX(-8%);
+  transform: translateX(-6%);
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -413,6 +413,7 @@ section.cover_b a::after {
   content: "";
 }
 
+
 section.cover_c {
   width: 100%;
   background: linear-gradient(to bottom, white 20%, var(--color-coverbg) 20% 88%, white 88%);
@@ -422,9 +423,7 @@ section.cover_c {
 section.cover_c img {
   background-color: rgba(255, 255, 255, 0);
   background-blend-mode: lighten;  
-  margin-top: 15px;
-  height: 90px;
-  //filter: brightness(0%) contrast(60%) grayscale(80%);
+  filter: brightness(0%) contrast(60%) grayscale(80%);
 }
 
 section.cover_c h1 {
@@ -563,8 +562,8 @@ section.toc_a header {
   width: 150%;
   font-family: 'Fira Code';
   font-weight: bolder;
-  font-size: 880%;
-  left: -4px;
+  font-size: 1080%;
+  left: -8px;
   text-align: center;
   display: flex;
   line-height: 162px;  
@@ -1333,24 +1332,18 @@ section.bq-black blockquote>p:nth-child(1)::before {
   font-family: "FontAwesome";
 }
 
-div.hh {
-  opacity: 0;
-}
-
 section.lastpage  {
   background: linear-gradient(to bottom,white 20%,var(--color-coverbg) 20% 60%,white 55%);
   padding: 0;
   display: grid;
-  grid-template-rows: 20% 25% 25% 20%;
+  grid-template-rows: 80% 20%;
   grid-template-columns: auto;
   grid-template-areas: 
       "heading"
-      "first"
-      "second"
       "icons";
 }
 
-section.lastpage h5 {
+section.lastpage h6 {
   height: 80px; 
   margin-bottom: 10px;
   text-align: center;
@@ -1367,29 +1360,12 @@ section.lastpage h5 {
   justify-content: center;
 }
 
-section.lastpage h5 {
-  grid-area: first;
-}
-
 section.lastpage h6 {
-  height: 30px; 
-  text-align: center;
-  vertical-align: middle;
-  font-family: var(--font-family-title); 
-  font-size: var(--font-size-1);
-  color: var(--color-title);
-  display: grid;
-  align-content: center;
-  justify-content: center;
-}
-
-section.lastpage h6 {
-  grid-area: second;
+  grid-area: heading;
 }
 
 section.lastpage .icons {
   grid-area: icons;
-  font-size: 1.2rem;
 }
 
 section.lastpage div>ul {
@@ -1403,8 +1379,7 @@ section.lastpage div>ul {
   
 }
 section.lastpage ul>li>ul>li {
-  margin-left: -90px;
-  
+  margin-left: -120px;
 }
 section.lastpage div>ul>li>ul>li {
   list-style: none;
@@ -1431,7 +1406,7 @@ section.lastpage a::after, section.lastpage::after {
 section.navbar header {
   background-color: var(--color-navbar-bg);
   width: 100%;
-  height: 3.5%;
+  height: 5%;
   padding: 6px 0px 3px 0px;
   left: 0px;
   top: 0px;
@@ -1443,7 +1418,7 @@ section.navbar header {
 
 section.navbar header>em, section.navbar header>strong,section.navbar header>em>strong {
   font-style: normal;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: normal;
   color: var(--color-navbar-font);
 }
@@ -1461,7 +1436,7 @@ section.navbar header::before, section.navbar header::after {
 
 section.navbar header>em>strong {
   display: block;
-  width: 300px;
+  width: 400px;
   text-align: left;
   margin-left: -20px;
 }
