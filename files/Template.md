@@ -18,7 +18,7 @@ headingDivider: [2,3]
 Ming Hu<sup>1</sup>, **Lu Wang**<sup>2</sup>
 <sup>1</sup>Rotman School of Management, University of Toronto
 <sup>2</sup>College of Business, Shanghai University of Finance and Economics
-\
+\ 
 April 1st, 2024
 
 
