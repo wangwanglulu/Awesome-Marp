@@ -60,12 +60,12 @@ April 1st, 2024
 
 1) **开始之前：** 你需要知道这样几个工具，Markdown、Markdown 编辑器（VS Code 或 Obsidian）和 Marp。关于这三者是个啥，我不做详细地介绍，但在[第 55 页](#55)-[第 58 页](#58)会有一些凝练性的内容给你参考，同时我提供了不少的链接，也供你参阅。
 2) **为什么要开发 Awesome Marp？** 
-  - Marp 原生仅提供 3 种主题（`default` / `gaia` / `uncover`），呈现效果一般。于是我根据自己的使用情况，边用边改造，陆续打磨了这样的一整套模板。
-  - **目前发布的 v1.3 有 38 个自定义样式、6 种颜色的主题**（后面有呈现效果）
+   - Marp 原生仅提供 3 种主题（`default` / `gaia` / `uncover`），呈现效果一般。于是我根据自己的使用情况，边用边改造，陆续打磨了这样的一整套模板。
+   - **目前发布的 v1.3 有 38 个自定义样式、6 种颜色的主题**（后面有呈现效果）
 3) **Awesome Marp 的几个特色：**
-  - 支持分栏呈现、支持 Callouts（类似于 Beamer 中的定理框）、提供多种类型的封面页和目录页、可以实现导航进度栏、图片支持自定义居中/居左/居右对齐等 
-- 本着「开箱即用」的原则，我将本项目文件夹打包上传到了[GitHub](https://github.com/favourhong/Awesome-Marp) 和 [Gitee](https://gitee.com/favourhong/Awesome-Marp)
-4) 用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com) 或 [Obsidian](https://obsidian.md/)、[Marp for VScode（插件）](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
+   - 支持分栏呈现、支持 Callouts（类似于 Beamer 中的定理框）、提供多种类型的封面页和目录页、可以实现导航进度栏、图片支持自定义居中/居左/居右对齐等 
+4) 本着「开箱即用」的原则，我将本项目文件夹打包上传到了[GitHub](https://github.com/favourhong/Awesome-Marp) 和 [Gitee](https://gitee.com/favourhong/Awesome-Marp)
+5) 用到的工具：软件 [Visual Studio Code](https://code.visualstudio.com) 或 [Obsidian](https://obsidian.md/)、[Marp for VScode（插件）](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
 
 
